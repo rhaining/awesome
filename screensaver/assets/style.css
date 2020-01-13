@@ -1,0 +1,61 @@
+
+
+.wordmark {
+  font-family: Zapfino, Brush Script MT, cursive;
+  font-size: 1em;
+  line-height: 3.5em;
+}
+
+#header {
+  text-align: center;
+  margin-bottom: 40pt;
+}
+
+div#logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20pt;
+}
+
+#header div#logo-container .wordmark {
+  margin-top: 40pt;
+	font-size: 40pt;
+  line-height: 0.9em;
+}
+
+#header h2 {
+  margin-top: 0;
+}
+img#logo {
+  height: 120pt;
+}
+.download-button {
+  margin: 0 10pt;
+}
+#demo_mov {
+  float: right;
+  margin-left: 40pt;
+  border: 2pt solid #bbb;
+}
+@media only screen and (max-width: 1000px) {
+  #demo_mov {
+    float: none;
+    margin-left: auto;
+  }
+  #demo_mov video {
+    max-width: 100%;
+  }
+}
+#description {
+  line-height: 1.8em;
+}
+#description ul {
+  margin-top: 0;
+}
+.smaller {
+  font-size: 0.8em;
+}
+#twitter-logo {
+  height: 1em;
+}

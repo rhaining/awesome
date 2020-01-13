@@ -1,0 +1,26 @@
+body {
+  /* background-color: #1d1e22; */
+  background-color: #fff;
+  /* color: #d4d4dc; */
+  color: #1d1e22;
+  font-family: Georgia;
+  margin: 20 20 60 20;
+}
+a {
+  /* color: #feda6a; */
+  color: #64A3EC; /* blue */
+}
+a:visited {
+  color: #CB5254; /* red */
+}
+
+#content-wrapper {
+  max-width: 900pt;
+  margin: auto;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 40pt;
+  font-size: 10pt;
+}
