@@ -1,5 +1,6 @@
 body {
   margin: 20 10;
+  font-family: Georgia;
 }
 h1,h2,h3,h4,h5,h6 {
   padding: 2pt 0;
@@ -7,15 +8,23 @@ h1,h2,h3,h4,h5,h6 {
   font-family: Futura;
 }
 table, th, td {
-  border: 1px solid black;
+  border: 1pt solid black;
   border-collapse: collapse;
 }
-th, td {
-  padding: 15px;
-}
 div.tennis_court {
-  padding: 5 5 5 5;
+  padding: 4pt;
 }
+table#availability td, table#availability th {
+  padding: 4pt 4pt;
+  text-align: center;
+}
+table#availability div.date { width: 70pt;  text-align:center;   }
+table#availability div.time { width: 40pt;  text-align:center;   }
+table#availability th, table#availability td.date-cell {
+  background: #999;
+  color: white;
+}
+
 #footer {
   text-align: center;
   margin-top: 40pt;

@@ -26,30 +26,30 @@ function populateAvailabilities(availabilities) {
   unique_times = availabilities.map(getTime).filter(onlyUnique).sort(function (a, b) {
     return new Date('1970/01/01 ' + a) - new Date('1970/01/01 ' + b)
   })
-  row = "<tr><th></th>"
+  row = "<thead>\n\t<tr>\n\t\t<th>\n\t\t\t<div class=\"date\"> &nbsp; </div>\n\t\t</th>\n"
   for (var i = 0; i < unique_times.length; i++) {
-    time = unique_times[i]
-    row += "<th>" + time + "</th>"
+    time = unique_times[i].replace(":00", "")
+    row += "\t\t<th><div class=\"time\">" + time + "</div></th>\n"
   }
-  row += "</tr>"
+  row += "\t</tr>\n</thead>\n"
   table.innerHTML += row
 
   for (var i = 0; i < unique_dates.length; i++) {
     date = unique_dates[i]
-    row = "<tr><td>" + date + "</td>"
+    row = "\n\t<tr>\n\t\t<td class=\"date-cell\"><div class=\"date\">" + date + "</div></td>\n"
     matches_by_date = availabilities.filter(function (value, index, self) { return value["date"] == date })
     for (var j = 0; j < unique_times.length; j++) {
       time = unique_times[j]
       matches_by_time = matches_by_date.filter(function (value, index, self) { return value["time"] == time })
       if(matches_by_time.length > 0) {
-        row += "<td>"
+        row += "\t\t<td><div class=\"time\">"
         for (var k=0; k < matches_by_time.length; k++) {
           match = matches_by_time[k]
-          row += "<div class=\"tennis_court\"><a href=\"" + match["url"] + "\" target=_blank>" + match["court"].replace("Tennis", "").replace("Court", "") + "</a></div> "
+          row += "<span class=\"tennis_court\"><a href=\"" + match["url"] + "\" target=_blank>" + match["court"].replace("Tennis", "").replace("Court", "") + "</a></span> "
         }
-        row += "</td>"
+        row += "</div></td>\n"
       } else {
-        row += "<td>&nbsp;</td>"
+        row += "\t\t<td>&nbsp;</td>\n"
       }
     }
     row += "</tr>"
