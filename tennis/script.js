@@ -36,7 +36,7 @@ function populateAvailabilities(availabilities) {
         row += "<td>"
         for (var k=0; k < matches_by_time.length; k++) {
           match = matches_by_time[k]
-          row += "<div class=\"tennis_court\"><a href=\"" + match["url"] + "\" target=_blank>" + match["court"] + "</a></div> "
+          row += "<div class=\"tennis_court\"><a href=\"" + match["url"] + "\" target=_blank>" + match["court"].replace("Tennis", "").replace("Court", "") + "</a></div> "
         }
         row += "</td>"
       } else {
