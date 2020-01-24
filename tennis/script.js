@@ -7,7 +7,8 @@ function loadAvailabilities() {
       populateLastUpdated(data["last_updated"])
     }
   };
-  xhttp.open("GET", "tennis_courts_availability.json", true)
+//  xhttp.open("GET", "tennis_courts_availability.json", true)
+  xhttp.open("GET", "https://api.kindofawesome.com/mccarren", true)
   xhttp.send();
 }
 
@@ -51,12 +52,6 @@ function populateAvailabilities(availabilities) {
     row += "</tr>"
     table.innerHTML += row
   }
-
-  // for (var i = 0; i < availabilities.length; i++) {
-  //   a = availabilities[i]
-  //   row = "<tr><td>" + a["date"] + "</td><td>" + a["time"] + "</td><td>" + a["court"] + "</td><td><a href=\"" + a["url"] + "\">Book it</a></td></tr>"
-  //   table.innerHTML += row
-  // }
 
   document.getElementById("loading").style.display = 'none'
 }
