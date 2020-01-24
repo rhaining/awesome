@@ -2,12 +2,17 @@ function loadAvailabilities() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      availabilities = JSON.parse(this.responseText);
-      populateAvailabilities(availabilities)
+      data = JSON.parse(this.responseText);
+      populateAvailabilities(data["availability"])
+      populateLastUpdated(data["last_updated"])
     }
   };
   xhttp.open("GET", "tennis_courts_availability.json", true)
   xhttp.send();
+}
+
+function populateLastUpdated(last_updated) {
+  document.getElementById("last_updated").innerHTML = last_updated
 }
 
 function populateAvailabilities(availabilities) {
