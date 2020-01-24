@@ -7,8 +7,11 @@ function loadAvailabilities() {
       populateLastUpdated(data["last_updated"])
     }
   };
-//  xhttp.open("GET", "tennis_courts_availability.json", true)
-  xhttp.open("GET", "https://api.kindofawesome.com/mccarren", true)
+  if (window.location.protocol == "file:") {
+    xhttp.open("GET", "tennis_courts_availability.json", true)
+  } else {
+    xhttp.open("GET", "https://api.kindofawesome.com/mccarren", true)
+  }
   xhttp.send();
 }
 

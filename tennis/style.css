@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia;
+  margin: 20 10;
 }
 h1,h2,h3,h4,h5,h6 {
   padding: 2pt 0;
@@ -15,4 +15,9 @@ th, td {
 }
 div.tennis_court {
   padding: 5 5 5 5;
+}
+#footer {
+  text-align: center;
+  margin-top: 40pt;
+  font-size: 10pt;
 }
