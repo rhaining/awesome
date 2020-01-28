@@ -5,7 +5,14 @@ function loadAvailabilities() {
       data = JSON.parse(this.responseText);
       populateAvailabilities(data["availability"])
       populateLastUpdated(data["last_updated"])
+    } else if (this.readyState == 4 && this.status == 0){
+      if (window.location.protocol == "file:" && navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+        document.getElementById("error").innerHTML = "<p>Looks like a cors error.</p><p>Please update <a href=\"about:config\" target=_blank>about:config</a> to set `privacy.file_unique_origin` to `false`.</p><p>thanks!</p>"
+        document.getElementById("error").style.display = 'block';
+      }
     }
+    
+    document.getElementById("loading").style.display = 'none'
   };
   if (window.location.protocol == "file:") {
     xhttp.open("GET", "tennis_courts_availability.json", true)
@@ -55,8 +62,6 @@ function populateAvailabilities(availabilities) {
     row += "</tr>"
     table.innerHTML += row
   }
-
-  document.getElementById("loading").style.display = 'none'
 }
 
 function getDate(x) {

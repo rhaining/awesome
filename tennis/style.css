@@ -30,3 +30,14 @@ table#availability th, table#availability td.date-cell {
   margin-top: 40pt;
   font-size: 10pt;
 }
+
+#error {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+  padding: 20 20;
+  margin: auto;
+  width: 500pt;
+  display: none;
+}
