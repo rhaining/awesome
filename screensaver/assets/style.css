@@ -60,7 +60,7 @@ img#logo {
 .button:active {
   background-color: #5482AD; /* even darker blue */
 }
-.button a, .button a:visited {
+a.button, a.button:visited {
   color: white;
   text-decoration: none;
 }
