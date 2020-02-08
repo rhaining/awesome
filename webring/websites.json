@@ -1,0 +1,24 @@
+{
+  "websites": [
+    {
+      "name": "Tolar Town",
+      "url": "https://tolar.town/",
+      "image": "https://roberthaining.com/media/me-dino-small.jpeg"
+    },
+    {
+      "name": "Clint Ecker",
+      "url": "https://blog.clintecker.com/",
+      "image": "https://clintecker.com/img/me.png"
+    },
+    {
+      "name": "Writing by Harper Reed",
+      "url": "https://harper.blog/",
+      "image": "https://harperreed.com/imgs/headshots/harper_reed_hires_08.jpg"
+    },
+    {
+      "name": "Christina Xu",
+      "url": "https://christinaxu.org/",
+      "image": "https://pbs.twimg.com/profile_images/817530269431451648/EjTleEmL_400x400.jpg"
+    }
+  ]
+}

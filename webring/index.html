@@ -1,0 +1,48 @@
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="script.js"></script>
+  <title>kind of awesome: a webring</title>
+</head>
+<body onload="loadWebsites(); cleanupTextarea()">
+  <div id="content-wrapper">
+    <h1>Kind of awesome webring</h1>
+
+    <div id="iframe-section">
+      <h3>Here's what it looks like:</h3>
+      <iframe src="iframe.html" width="800pt" height="125pt" name="kindofawesome-webring"></iframe>
+    </div>
+
+    <div id="iframe-promo">
+      <h3>Select this to copy and paste into your blog:</h3>
+      <textarea id="the-textarea" rows="4" cols="40" onclick="this.focus();this.select()" readonly="readonly">
+        <iframe src="https://kindofawesome.com/webring/iframe.html" width="800pt" height="125pt" name="kindofawesome-webring"></iframe>
+      </textarea>
+    </div>
+
+    <div id="members-section">
+      <h3>current members:</h3>
+      <div id="loading">loading&hellip;</div>
+      <ul id="members"></ul>
+    </div>
+  </div>
+
+  <div id="promo">
+    <div>More projects at <a href="/">kindofawesome.com</a>.</diV>
+    <div>You can find my other internet things at <a href="https://tolar.ws/">tolar.ws</a>.
+  </div>
+
+  <div id="footer">
+    <p>&copy; Copyright 2020 Robert Tolar Haining. All rights reserved.</p>
+  </div>
+</body>
+
+<script>
+function cleanupTextarea() {
+  var textarea = document.getElementById("the-textarea")
+  textarea.innerHTML = textarea.innerHTML.trim()
+}
+</script>
+
+</html>
