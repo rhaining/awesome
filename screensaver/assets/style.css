@@ -40,40 +40,6 @@ img#logo {
   }
 }
 
-.button {
- background-color: #64A3EC; /* blue */
- border: none;
- color: white;
- padding: 15px 32px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- font-size: 1.4em;
-   border-radius: 8pt;
-   font-family: "Arial Black", Gadget, sans-serif;
-   letter-spacing: 0.5pt;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.button:hover {
-  background-color: #6196C8; /* slightly darker blue */
-}
-.button:active {
-  background-color: #5482AD; /* even darker blue */
-}
-a.button, a.button:visited {
-  color: white;
-  text-decoration: none;
-}
-
-.download-icon {
-  float: left;
-  margin-right: 8pt;
-  padding-top: 3pt;
-}
-
-.download-button {
-  margin: 0 10pt 10pt 10pt;
-}
 #demo_mov {
   float: right;
   margin-left: 40pt;
