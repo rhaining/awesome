@@ -3,9 +3,10 @@
   <meta charset="UTF-8"/>
   <link rel="stylesheet" type="text/css" href="style.css"/>
   <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="../assets/script.js"></script>
   <title>kind of awesome: a webring</title>
 </head>
-<body onload="loadWebsites(); cleanupTextarea()">
+<body onload="loadWebsites(); cleanupTextarea('the-textarea')">
   <div id="content-wrapper">
     <h1>Kind of awesome webring</h1>
 
@@ -38,11 +39,5 @@
   </div>
 </body>
 
-<script>
-function cleanupTextarea() {
-  var textarea = document.getElementById("the-textarea")
-  textarea.innerHTML = textarea.innerHTML.trim()
-}
-</script>
 
 </html>

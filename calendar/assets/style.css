@@ -1,0 +1,18 @@
+h1,h3{
+  text-align: center;
+}
+h1 {
+  font-family: Zapfino, Brush Script MT, cursive;
+}
+#promo {
+  font-size: 0.9em;
+}
+#content-wrapper {
+  max-width: 600pt;
+}
+div.explainer {
+  margin: 20pt 0pt;
+}
+#textarea-wrapper {
+  text-align: center;
+}

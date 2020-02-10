@@ -1,40 +1,38 @@
 <html>
 <head>
-<title>kind of awesome</title>
+<title>2020 Democratic calendar | kindofawesome.com</title>
 <link rel="stylesheet" href="../assets/style.css"/>
+<link rel="stylesheet" href="assets/style.css"/>
+<script type="text/javascript" src="../assets/script.js"></script>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-h1,h3{
-  text-align: center;
-}
-h1 {
-  font-family: Zapfino, Brush Script MT, cursive;
-}
-#promo {
-  font-size: 0.9em;
-}
-#content-wrapper {
-  max-width: 600pt;
-}
-div.explainer {
-  margin-top: 20pt;
-}
-</style>
 
 </head>
 
-<body>
+<body onload="cleanupTextarea('the-textarea');">
 
 <div id="content-wrapper">
 
 <h1>2020 Democratic party calendar</h1>
 
-<h3><div><a href="subscribe/2020_Democratic_party_calendar.ics" class="button" onClick="_gaq.push(['_trackEvent', 'downloads', 'click', 'dem-ical-feed', 'v1.0']);"><img src="../assets/download-icon.png" class="download-icon"/>Subscribe to the feed!</a></div></h3>
-
+<!-- <h3><div><a href="subscribe/2020_Democratic_party_calendar.ics" class="button" onClick="_gaq.push(['_trackEvent', 'downloads', 'click', 'dem-ical-feed', 'v1.0']);"><img src="../assets/download-icon.png" class="download-icon"/>Subscribe to the feed!</a></div></h3> -->
 <div class="explainer">Have you ever wanted to keep track of when all these primaries, caucuses, and debates are happening?</div>
+
+<i>Instructions:</i>
+<ol>
+  <li>Select the URL below</li>
+  <li>Copy it</li>
+  <li>In your calendar app, find something like: "new calendar subscription" or "subscribe to calendar"</li>
+  <li>Paste the URL there!</li>
+  <li>Voila!</li>
+</ol>
+<div id="textarea-wrapper">
+  <textarea id="the-textarea" rows="3" cols="60" onclick="this.focus();this.select()" readonly="readonly">
+    https://kindofawesome.com/calendar/subscribe/2020_Democratic_party_calendar.ics
+  </textarea>
+</div>
 
 <div class="explainer">This is an iCal feed that works with Mac's Calendar app, but should also work with other systems like Google calendar.</div>
 
