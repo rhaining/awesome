@@ -36,14 +36,16 @@ function randomElement(array) {
 function populateWebsite(websites) {
   if(inIframe()) {
     // var parentHost = parent.window.location.hostname
-    //
-    // var website = null
-    // while(website == null) {
-    //   website = randomElement(websites)
-    //   if(parentHost.lenght > 0 && website["url"].includes(parentHost)) {
-    //     website = null
-    //   }
-    // }
+    var parentHost = document.referrer
+    console.log("parent host = " + parentHost)
+
+    var website = null
+    while(website == null) {
+      website = randomElement(websites)
+      if(parentHost.lenght > 0 && website["url"].includes(parentHost)) {
+        website = null
+      }
+    }
 
     var website = randomElement(websites)
     var element = document.getElementById("website-link")
