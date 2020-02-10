@@ -35,13 +35,11 @@ function randomElement(array) {
 
 function populateWebsite(websites) {
   if(inIframe()) {
-    // var parentHost = document.referrer
     var parentHost = "unknown.host.ignore.this";
     if(document.referrer != null && document.referrer.length > 0) {
       var parentURL = new URL(document.referrer);
       parentHost = parentURL.hostname;
     }
-    console.log("parent host = " + parentHost)
 
     var website = null
     while(website == null) {
@@ -51,7 +49,6 @@ function populateWebsite(websites) {
       }
     }
 
-    var website = randomElement(websites)
     var element = document.getElementById("website-link")
     element.innerHTML = website["name"]
     element.href = website["url"]
