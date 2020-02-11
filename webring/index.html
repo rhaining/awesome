@@ -1,24 +1,25 @@
 <html>
 <head>
   <meta charset="UTF-8"/>
-  <link rel="stylesheet" type="text/css" href="style.css"/>
-  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+  <script type="text/javascript" src="assets/script.js"></script>
   <script type="text/javascript" src="../assets/script.js"></script>
   <title>kind of awesome: a webring</title>
 </head>
 <body onload="loadWebsites(); cleanupTextarea('the-textarea')">
   <div id="content-wrapper">
-    <h1>Kind of awesome webring</h1>
+    <h1>Kind of Awesome: a webring</h1>
 
     <div id="iframe-section">
       <h3>Here's what it looks like:</h3>
-      <iframe src="iframe.html" width="800pt" height="125pt" name="kindofawesome-webring"></iframe>
+      <script type="text/javascript" src="iframe/iframe_constructor.js"></script>
     </div>
 
+
     <div id="iframe-promo">
-      <h3>Select this to copy and paste into your blog:</h3>
+      <h3>Select this to copy and paste into your blog or website:</h3>
       <textarea id="the-textarea" rows="4" cols="40" onclick="this.focus();this.select()" readonly="readonly">
-        <iframe src="https://kindofawesome.com/webring/iframe.html" width="800pt" height="125pt" name="kindofawesome-webring"></iframe>
+        <script type="text/javascript" src="https://kindofawesome.com/webring/iframe/iframe_constructor.js"></script>
       </textarea>
     </div>
 

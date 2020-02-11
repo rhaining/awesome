@@ -13,12 +13,18 @@ function loadWebsites() {
 
     document.getElementById("loading").style.display = 'none'
   };
-  xhttp.open("GET", "websites.json", true)
-  // if (window.location.protocol == "file:") {
-  //   xhttp.open("GET", "websites.json", true)
-  // } else {
-  //   xhttp.open("GET", "https://api.kindofawesome.com/mccarren", true)
-  // }
+
+  var url = null
+  if (window.location.protocol == "file:") {
+    if(inIframe()) {
+      url = "../websites.json"
+    } else {
+      url = "websites.json"
+    }
+  } else {
+    url = "https://kindofawesome.com/webring/websites.json"
+  }
+  xhttp.open("GET", url, true)
   xhttp.send();
 }
 

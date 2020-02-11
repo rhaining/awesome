@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#image {
+  float: left;
+  height: 100%;
+  margin-right: 5pt;
+}
+#hed {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15pt;
+  line-height: 0.9em;
+  margin-top: 0pt;
+  margin-bottom: 0.4em;
+}
+#subhed {
+  color: #555;
+  margin-bottom: 0.4em;
+  font-style: italic;
+}
+#website {
+  font-size: 25pt;
+}
+
+@media only screen and (max-width: 600pt) {
+  #hed {
+    font-size: 10pt;
+  }
+  #website {
+    font-size: 15pt;
+  }
+  #subhed, #website {
+    display: inline;
+  }
+
+}
+@media only screen and (max-width: 350pt) {
+  #image, #hed {
+    display: none;
+  }
+}

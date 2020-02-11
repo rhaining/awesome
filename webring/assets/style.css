@@ -5,6 +5,9 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0;
   font-family: "Arial Black", Gadget, sans-serif;
 }
+h1 {
+  line-height: 1em;
+}
 ul {
   margin: 0;
 }
@@ -13,7 +16,7 @@ li {
 }
 #content-wrapper {
   max-width: 800pt;
-  margin: auto;
+  margin: 20pt auto;
 }
 #iframe-promo {
   margin: 40pt 0pt;
@@ -34,7 +37,7 @@ li {
   color: #aaa;
   margin-top: 4em;
 }
-#image {
+/* #image {
   float: left;
   height: 100%;
   margin-right: 5pt;
@@ -51,4 +54,4 @@ li {
 }
 #iframe-website {
   font-size: 25pt;
-}
+} */
