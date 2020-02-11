@@ -39,4 +39,10 @@ body {
   #image, #hed {
     display: none;
   }
+  #subhed {
+    font-size: 9pt;
+  }
+  #website {
+    font-size: 11pt;
+  }
 }
