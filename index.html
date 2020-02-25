@@ -30,13 +30,25 @@ li {
   margin-bottom: 1.5em;
   margin-left: 1em;
 }
+#hed {
+  margin-bottom: 2em;
+}
+.project-info {
+  font-size: 0.75em;
+  color: #333;
+  font-style: italic;
+}
 </style>
 
 </head>
 
 <body onload="populateProjects()">
   <div id="content-wrapper">
-    <h1 class="wordmark">kind of awesome</h1>
+    <div id="hed">
+      <h1 class="wordmark">kind of awesome</h1>
+      <h5>let's internet like it's the 90's</h5>
+    </div>
+
     <h3>current projects</h3>
     <ul id="project-list"></ul>
 
@@ -70,14 +82,19 @@ function populateProjects() {
       "info": "a screensaver"
     },
     {
+      "link": "webring/",
+      "link-text": "Kind of Awesome webring",
+      "info": "bringing blogs and websites together"
+    },
+    {
       "link": "calendar/",
-      "link-text": "2020 Democratic calendar",
+      "link-text": "2020 Democratic party calendar",
       "info": "a subscribable calendar feed for the 2020 primaries, caucuses, &amp; debates"
     },
     {
       "link": "tennis/",
-      "link-text": "Mcccarren tennis",
-      "info": "a better way to find times to book"
+      "link-text": "Mccarren tennis",
+      "info": "a simpler way to find times to book tennis courts"
     },
     {
       "link": "https://twitter.com/peakwarmth",
@@ -93,7 +110,7 @@ function populateProjects() {
   var buffer = ""
   for(var i=0; i<projects.length; i++) {
     var project = projects[i]
-    var html = "<li><a href=\"" + project["link"] + "\">" + project["link-text"] + "</a>: " + project["info"] + "</li>\n"
+    var html = "<li><div class=\"project\"><a href=\"" + project["link"] + "\">" + project["link-text"] + "</a></div><div class=\"project-info\">" + project["info"] + "</div></li>\n"
     buffer += html
   }
   document.getElementById("project-list").innerHTML = buffer

@@ -1,5 +1,7 @@
+
 h1,h3{
   text-align: center;
+  line-height: 1.8em;
 }
 h1 {
   font-family: Zapfino, Brush Script MT, cursive;
@@ -9,6 +11,7 @@ h1 {
 }
 #content-wrapper {
   max-width: 600pt;
+  margin-top: 3em;
 }
 div.explainer {
   margin: 20pt 0pt;
