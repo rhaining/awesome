@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
 <channel>
-<link>https://www.kindofawesome.com/chinchillas/</link>
+<link>https://kindofawesome.com/chinchillas/</link>
 <language>en-us</language>
 <copyright>&#xA9;2020</copyright>
 <webMaster>chinchillas@kindofawesome.com (Talking with Chinchillas)</webMaster>
 <managingEditor>chinchillas@kindofawesome.com (Talking with Chinchillas)</managingEditor>
 <image>
-<url>https://www.kindofawesome.com/chinchillas/static/podcast-logo.png</url>
+<url>https://kindofawesome.com/chinchillas/static/podcast-logo.png</url>
 <title>Talking with Chinchillas</title>
-<link>https://www.kindofawesome.com/chinchillas/</link>
+<link>https://kindofawesome.com/chinchillas/</link>
 </image>
 <itunes:owner>
 <itunes:name>Talking with Chinchillas</itunes:name>
@@ -19,8 +19,8 @@
 </itunes:category>
 <itunes:keywords>news,politics,comedy,short form,chinchillas</itunes:keywords>
 <itunes:explicit>no</itunes:explicit>
-<itunes:image href="https://www.kindofawesome.com/chinchillas/static/podcast-logo.png" />
-<atom:link href="https://www.kindofawesome.com/chinchillas/podcast/feed.xml" rel="self" type="application/rss+xml" />
+<itunes:image href="https://kindofawesome.com/chinchillas/static/podcast-logo.png" />
+<atom:link href="https://kindofawesome.com/chinchillas/podcast/feed.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 06 Mar 2020 15:42:00 EST</pubDate>
 <title>Talking with Chinchillas</title>
 <itunes:author>Kind of Awesome</itunes:author>
@@ -34,8 +34,8 @@
 <itunes:summary>We go in-depth on the upcoming primary.</itunes:summary>
 <itunes:subtitle>We go in-depth on the upcoming primary.</itunes:subtitle>
 <itunesu:category itunesu:code="116104" />
-<enclosure url="https://www.kindofawesome.com/chinchillas/podcast/episodes/episode1.mp3" type="audio/mpeg" length="867600" />
-<guid>https://www.kindofawesome.com/chinchillas/podcast/episodes/episode1.mp3</guid>
+<enclosure url="https://kindofawesome.com/chinchillas/podcast/episodes/episode1.mp3" type="audio/mpeg" length="867600" />
+<guid>https://kindofawesome.com/chinchillas/podcast/episodes/episode1.mp3</guid>
 <itunes:duration>0:00:26</itunes:duration>
 <pubDate>Fri, 06 Mar 2020 15:42:00 EST</pubDate>
 </item>
