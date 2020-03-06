@@ -3,7 +3,12 @@
   max-width: 550pt;
 }
 #logo {
-  width: 250pt;
+  max-width: 250pt;
+}
+@media only screen and (max-width: 300pt) {
+  #logo {
+    max-width: 100%;
+  }
 }
 #subscribe-section {
   margin: 10pt 10pt;
@@ -15,7 +20,7 @@
   margin: 10pt 10pt;
 }
 #info-section {
-  width: 350pt;
+  max-width: 350pt;
   margin: auto auto;
   padding: 30pt 20pt;
   text-align: left;
