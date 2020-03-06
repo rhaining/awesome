@@ -19,5 +19,10 @@
   margin: auto auto;
   padding: 30pt 20pt;
   text-align: left;
-
+  font-size: 1.3em;
+}
+#player #listen-hed {
+  font-style: italic;
+  margin-bottom: 4pt;
+  text-align: left;
 }
