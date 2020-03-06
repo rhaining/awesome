@@ -1,0 +1,23 @@
+#content-wrapper {
+  text-align: center;
+  max-width: 550pt;
+}
+#logo {
+  width: 250pt;
+}
+#subscribe-section {
+  margin: 10pt 10pt;
+}
+.or-section {
+  margin: 10pt 10pt;
+}
+#apple-section {
+  margin: 10pt 10pt;
+}
+#info-section {
+  width: 350pt;
+  margin: auto auto;
+  padding: 30pt 20pt;
+  text-align: left;
+
+}
