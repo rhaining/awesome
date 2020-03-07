@@ -23,9 +23,13 @@ function loadLatestPodcastEp() {
 function parsePodcastFeed(xmlDoc) {
   episodes = xmlDoc.getElementsByTagName("item")
   mostRecentEp = episodes[0]
+
   enclosure = mostRecentEp.getElementsByTagName("enclosure")[0]
   url = enclosure.getAttribute("url")
 
   document.getElementById("podcast-player-source").src = url
   document.getElementById("podcast-player-audio").load()
+
+  document.getElementById("latest-episode-text").innerHTML = "&ldquo;" + mostRecentEp.getElementsByTagName("title")[0].innerHTML + "&rdquo;"
+  // document.getElementById("latest-episode-timestamp").innerHTML = mostRecentEp.getElementsByTagName("pubDate")[0].innerHTML
 }
