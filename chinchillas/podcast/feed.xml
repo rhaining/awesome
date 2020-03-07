@@ -17,11 +17,12 @@
 <itunes:category text="News">
 <itunes:category text="Politics" />
 </itunes:category>
+<itunes:type>episodic</itunes:type>
 <itunes:keywords>news,politics,comedy,short form,chinchillas</itunes:keywords>
 <itunes:explicit>no</itunes:explicit>
 <itunes:image href="https://kindofawesome.com/chinchillas/static/podcast-logo.png" />
 <atom:link href="https://kindofawesome.com/chinchillas/podcast/feed.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 06 Mar 2020 15:42:00 EST</pubDate>
+<pubDate>Sat, 07 Mar 2020 14:29:00 EST</pubDate>
 <title>Talking with Chinchillas</title>
 <itunes:author>Kind of Awesome</itunes:author>
 <description>We ask the hard-hitting questions of the day.</description>
@@ -30,6 +31,8 @@
 <lastBuildDate>Fri, 06 Mar 2020 15:42:00 EST</lastBuildDate>
 <item>
 <title>Episode 1: Primary</title>
+<itunes:title>Episode 1: Primary</itunes:title>
+<itunes:author>Robert Tolar Haining</itunes:author>
 <description>We go in-depth on the upcoming primary.</description>
 <itunes:summary>We go in-depth on the upcoming primary.</itunes:summary>
 <itunes:subtitle>We go in-depth on the upcoming primary.</itunes:subtitle>
