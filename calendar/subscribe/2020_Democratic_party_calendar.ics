@@ -88,8 +88,8 @@ DTSTAMP:20200210T164820Z
 UID:20200210T164820Z-1113204974@kindofawesome.com
 DTSTART;VALUE=DATE:20200310
 DTEND;VALUE=DATE:20200311
-SUMMARY:Another big set of Tuesday primaries
-DESCRIPTION:Abroad\, Idaho\, Michigan\, Mississippi\, Missouri\, North Dakota\, Washington
+SUMMARY:Big Tuesday
+DESCRIPTION:Slightly less super - Abroad\, Idaho\, Michigan\, Mississippi\, Missouri\, North Dakota\, Washington
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20200210T164820Z
