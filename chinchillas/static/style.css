@@ -26,3 +26,15 @@
   font-style: italic;
   margin-bottom: 4pt;
 }
+
+#testimonials_section {
+  margin: 20pt auto;
+  width: 75%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 500pt) {
+  #testimonials_section {
+    width: 100%;
+  }
+}

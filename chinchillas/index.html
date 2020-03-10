@@ -23,7 +23,7 @@
 </head>
 
 
-<body onload="loadLatestPodcastEp()">
+<body onload="loadLatestPodcastEp(); populateTestimonials();">
   <div id="content-wrapper">
     <div>
       <img id="logo" src="static/site-logo.png"/>
@@ -66,6 +66,11 @@
       <a href="https://kindofawesome.com/chinchillas/podcast/feed.xml" class="button">RSS Podcast feed</a><br/>
       <br/>
       to use in your favorite podcast app
+    </div>
+
+    <div id="testimonials_section">
+      <h3>Testimonials</h3>
+      <ul id="testimonials_list"></ul>
     </div>
 
     <div id="promo">

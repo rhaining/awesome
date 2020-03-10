@@ -48,3 +48,25 @@ function parsePodcastFeed(xmlDoc) {
   document.getElementById("latest-episode-text").innerHTML = "&ldquo;" + episode.getElementsByTagName("title")[0].innerHTML + "&rdquo;"
   // document.getElementById("latest-episode-timestamp").innerHTML = mostRecentEp.getElementsByTagName("pubDate")[0].innerHTML
 }
+
+function populateTestimonials() {
+  var testimonials = [
+    "haha  - that is amazing.",
+    "dude, get a job",
+    "This type of political discourse is exactly what we all need. I'd be surprised if the NYTimes doesn't pick this up soon.",
+    "This is the kind of brave journalism we need right now 😎",
+    "😂",
+    "Please make a full length song talking with chinchiiiiillaaaaas 🎶",
+    "Wooow it’s gonna be awesome!",
+    "fantastic theme song",
+    "it's good"
+  ]
+
+  var buffer = ""
+  for(var i=0; i<testimonials.length; i++) {
+    var t= testimonials[i]
+    buffer += "<li>&ldquo;" + t + "&rdquo;</li>"
+  }
+  var testimonialList = document.getElementById("testimonials_list")
+  testimonialList.innerHTML = buffer
+}
