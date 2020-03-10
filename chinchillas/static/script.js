@@ -20,16 +20,31 @@ function loadLatestPodcastEp() {
   xhttp.send();
 }
 
-function parsePodcastFeed(xmlDoc) {
-  episodes = xmlDoc.getElementsByTagName("item")
-  mostRecentEp = episodes[0]
+function getEpisodeNumberFromQueryParams() {
+  var urlParams = new URLSearchParams(window.location.search);
+  var episodeNum = urlParams.get('episode')
+  if(episodeNum != null) {
+    // episodeNum -= 1
+  }
+  return episodeNum
+}
 
-  enclosure = mostRecentEp.getElementsByTagName("enclosure")[0]
+function parsePodcastFeed(xmlDoc) {
+  var episodeNumber = getEpisodeNumberFromQueryParams()
+
+  allEpisodes = xmlDoc.getElementsByTagName("item")
+  if(episodeNumber == null || episodeNumber < 0 || episodeNumber >= allEpisodes.length) {
+    episode = allEpisodes[0]
+  } else {
+    episode = allEpisodes[allEpisodes.length - episodeNumber]
+  }
+
+  enclosure = episode.getElementsByTagName("enclosure")[0]
   url = enclosure.getAttribute("url")
 
   document.getElementById("podcast-player-source").src = url
   document.getElementById("podcast-player-audio").load()
 
-  document.getElementById("latest-episode-text").innerHTML = "&ldquo;" + mostRecentEp.getElementsByTagName("title")[0].innerHTML + "&rdquo;"
+  document.getElementById("latest-episode-text").innerHTML = "&ldquo;" + episode.getElementsByTagName("title")[0].innerHTML + "&rdquo;"
   // document.getElementById("latest-episode-timestamp").innerHTML = mostRecentEp.getElementsByTagName("pubDate")[0].innerHTML
 }

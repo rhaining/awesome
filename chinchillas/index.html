@@ -37,7 +37,7 @@
 
     <div id="player">
       <div id="listen-hed">
-        Listen to the latest episode <span id="latest-episode-text"></span> now:
+        Listen to <span id="latest-episode-text"></span> now:
       </div>
 
       <div id="error"></div>
@@ -53,19 +53,20 @@
     <div class="or-section">
       or
     </div>
-<!--
-    <div id="apple-section">
-      <a href="#"><img src="static/apple-badge.png" id="apple-badge"/></a>
-    </div>
 
-    <div class="or-section">
-      or
-    </div>
--->
-    <div id="subscribe-section">
-      <a href="https://kindofawesome.com/chinchillas/podcast/feed.xml" class="button">RSS Podcast feed</a><br/>
-      <br/>
-      to use in your favorite podcast app
+    <div id="subscribe-table-wrapper">
+      <table id="subscribe-table">
+        <tr>
+          <td valign="top" id="apple-cell">
+            <a href="https://podcasts.apple.com/us/podcast/talking-with-chinchillas/id1501973084"><img src="static/apple-badge.png" id="apple-badge"/></a>
+          </td>
+          <td valign="top" id="rss-cell">
+            <a href="https://kindofawesome.com/chinchillas/podcast/feed.xml" class="button">RSS Podcast feed</a><br/>
+            <br/>
+            to use in your favorite podcast app
+          </td>
+        </tr>
+      </table>
     </div>
 
 
