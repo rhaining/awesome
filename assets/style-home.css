@@ -1,0 +1,54 @@
+body {
+  font-size: 30pt;
+}
+.wordmark {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+h6 {
+  font-style: italic;
+}
+@media only screen and (max-width: 1000pt) {
+  body {
+    font-size: 20pt;
+  }
+}
+@media only screen and (max-width: 500pt) {
+  body {
+    font-size: 15pt;
+  }
+}
+li {
+  margin-bottom: 1.5em;
+  margin-left: 1em;
+}
+#hed {
+  margin-bottom: 2em;
+}
+.project-info {
+  font-size: 0.65em;
+  color: #555;
+  font-style: italic;
+}
+.project-section {
+  float: left;
+  width: 250pt;
+  height: 375pt;
+  margin: 10pt 20pt;
+}
+.project-section  img {
+  width: 200pt;
+}
+.project-section .img-logo, .project-section .html-logo {
+  height: 210pt;
+}
+.project-section .text-logo {
+  width: 200pt;
+  height: 210pt;
+  font-size: 200pt;
+  line-height: 200pt;
+  text-align: center;
+}
+
+.float-clear {
+  clear: left;
+}

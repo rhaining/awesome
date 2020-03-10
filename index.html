@@ -2,64 +2,36 @@
 <head>
 <title>kind of awesome</title>
 <link rel="stylesheet" href="assets/style.css"/>
+<link rel="stylesheet" href="assets/style-home.css"/>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-body {
-  font-size: 30pt;
-}
-.wordmark {
-  font-family: "Arial Black", Gadget, sans-serif;
-}
-h1.wordmark {
-  font-size: 3em;
-}
-@media only screen and (max-width: 1000pt) {
-  body {
-    font-size: 20pt;
-  }
-}
-@media only screen and (max-width: 500pt) {
-  body {
-    font-size: 15pt;
-  }
-}
-li {
-  margin-bottom: 1.5em;
-  margin-left: 1em;
-}
-#hed {
-  margin-bottom: 2em;
-}
-.project-info {
-  font-size: 0.75em;
-  color: #333;
-  font-style: italic;
-}
-</style>
+<script src="assets/script-home.js"></script>
 
 </head>
 
-<body onload="populateProjects()">
+<body onload="fetchProjects()">
   <div id="content-wrapper">
     <div id="hed">
       <h1 class="wordmark">kind of awesome</h1>
       <h5>let's internet like it's the 90's</h5>
     </div>
 
-    <h3>current projects</h3>
-    <ul id="project-list"></ul>
+    <h6>current projects&hellip;</h6>
+
+    <div id="project-list"></div>
+    <div class="float-clear">&nbsp;</div>
+
+    <div id="loading">loading…</div>
+    <div id="error"></div>
 
     <div id="promo">You can find my other internet things at <a href="https://tolar.ws/">tolar.ws</a>.</div>
 
     <div id="footer">
       <p>&copy; Copyright 2020 Robert Tolar Haining. All rights reserved.</p>
     </div>
-
   </div>
-
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156098858-1"></script>
@@ -72,54 +44,4 @@ li {
   </script>
 
 </body>
-
-<script>
-function populateProjects() {
-  var projects = [
-    {
-      "link": "chinchillas/",
-      "link-text": "Talking with Chinchillas",
-      "info": "the podcast"
-    },
-    {
-      "link": "screensaver/",
-      "link-text": "Presidential Hopefuls",
-      "info": "a screensaver"
-    },
-    {
-      "link": "webring/",
-      "link-text": "Kind of Awesome webring",
-      "info": "bringing blogs and websites together"
-    },
-    {
-      "link": "calendar/",
-      "link-text": "2020 Democratic party calendar",
-      "info": "a subscribable calendar feed for the 2020 primaries, caucuses, &amp; debates"
-    },
-    {
-      "link": "tennis/",
-      "link-text": "Mccarren tennis",
-      "info": "a simpler way to find times to book tennis courts"
-    },
-    {
-      "link": "https://twitter.com/peakwarmth",
-      "link-text": "Peak Warmth",
-      "info": "the best time to go outside"
-    },
-    {
-      "link": "https://apps.apple.com/us/app/chromatic-pocket-stylist/id645307922?ls=1",
-      "link-text": "Chromatic Pocket Stylist",
-      "info": "search Etsy for colors in your home"
-    }
-  ]
-  var buffer = ""
-  for(var i=0; i<projects.length; i++) {
-    var project = projects[i]
-    var html = "<li><div class=\"project\"><a href=\"" + project["link"] + "\">" + project["link-text"] + "</a></div><div class=\"project-info\">" + project["info"] + "</div></li>\n"
-    buffer += html
-  }
-  document.getElementById("project-list").innerHTML = buffer
-}
-</script>
-
 </html>

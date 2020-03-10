@@ -1,0 +1,65 @@
+[
+  {
+    "url": "chinchillas/",
+    "logo": {
+      "type": "img",
+      "img-url": "chinchillas/static/site-logo.png"
+    },
+    "name": "Talking with Chinchillas",
+    "info": "the podcast"
+  },
+  {
+    "url": "screensaver/",
+    "logo": {
+      "type": "img",
+      "img-url": "screensaver/assets/logo.png"
+    },
+    "name": "Presidential Hopefuls",
+    "info": "a screensaver"
+  },
+  {
+    "url": "https://twitter.com/peakwarmth",
+    "logo": {
+      "type": "txt",
+      "text": "🌞"
+    },
+    "name": "Peak Warmth",
+    "info": "the best time to go outside"
+  },
+  {
+    "url": "calendar/",
+    "logo": {
+      "type": "txt",
+      "text": "📅"
+    },
+    "name": "2020 Democratic party calendar",
+    "info": "a subscribable calendar for primaries, caucuses, &amp; debates"
+  },
+  {
+    "url": "webring/",
+    "logo": {
+      "type": "html",
+      "html": "<a title=\"Alberto Lot / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)\" href=\"https://commons.wikimedia.org/wiki/File:World_Wide_Web_logo.png\"><img alt=\"World Wide Web logo\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/World_Wide_Web_logo.png/512px-World_Wide_Web_logo.png\"></a>"
+    },
+    "name": "Kind of Awesome webring",
+    "info": "bringing blogs and websites together"
+  },
+  {
+    "url": "tennis/",
+    "logo": {
+      "type": "txt",
+      "text": "🎾"
+    },
+    "name": "Mccarren tennis",
+    "info": "a simpler way to find times to book tennis courts"
+  },
+  {
+    "url": "https://apps.apple.com/us/app/chromatic-pocket-stylist/id645307922?ls=1",
+    "logo": {
+      "type": "img",
+      "img-url": "assets/chromatic-logo.png"
+    },
+    "name": "Chromatic Pocket Stylist",
+    "info": "search Etsy for colors in your home"
+  }
+]
