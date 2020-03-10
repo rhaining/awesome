@@ -33,8 +33,23 @@
 <itunes:summary>We ask the hard-hitting questions of the day.</itunes:summary>
 <itunes:subtitle>We ask the hard-hitting questions of the day.</itunes:subtitle>
 
-<pubDate>Sat, 07 Mar 2020 14:29:00 EST</pubDate>
-<lastBuildDate>Fri, 06 Mar 2020 15:42:00 EST</lastBuildDate>
+<pubDate>Tue, 10 Mar 2020 16:57:00 EST</pubDate>
+<lastBuildDate>Tue, 10 Mar 2020 16:57:00 EST</lastBuildDate>
+
+<item>
+  <title>Episode 2: The Market</title>
+  <itunes:title>Episode 2: The Market</itunes:title>
+  <itunes:author>Robert Tolar Haining</itunes:author>
+  <description>We ask about their reaction to the market this week.</description>
+  <itunes:summary>We ask about their reaction to the market this week.</itunes:summary>
+  <itunes:subtitle>We ask about their reaction to the market this week.</itunes:subtitle>
+  <link>https://kindofawesome.com/chinchillas/?episode=2</link>
+  <itunesu:category itunesu:code="116104" />
+  <enclosure url="https://kindofawesome.com/chinchillas/podcast/episodes/episode2.mp3" type="audio/mpeg" length="1121960" />
+  <guid>https://kindofawesome.com/chinchillas/podcast/episodes/episode2.mp3</guid>
+  <itunes:duration>0:00:35</itunes:duration>
+  <pubDate>Tue, 10 Mar 2020 16:57:00 EST</pubDate>
+</item>
 
 <item>
   <title>Episode 1: Primary</title>
