@@ -61,5 +61,14 @@
     },
     "name": "Chromatic Pocket Stylist",
     "info": "search Etsy for colors in your home"
+  },
+  {
+    "url": "tip/",
+    "logo": {
+      "type": "txt",
+      "text": "💵"
+    },
+    "name": "Contribute",
+    "info": "your tips keep these projects going"
   }
 ]
