@@ -52,6 +52,7 @@ function parsePodcastFeed(xmlDoc) {
 function populateTestimonials() {
   var testimonials = [
     "haha  - that is amazing.",
+    "Subscribed. This will keep me occupied on my commute from my bedroom to my home office.",
     "dude, get a job",
     "This type of political discourse is exactly what we all need. I'd be surprised if the NYTimes doesn't pick this up soon.",
     "This is the kind of brave journalism we need right now 😎",
