@@ -24,6 +24,10 @@ li {
 #iframe-section {
   margin: 40pt 0pt;
 }
+#members img {
+  width: 40pt;
+  margin-right: 10pt;
+}
 
 #footer {
   text-align: center;

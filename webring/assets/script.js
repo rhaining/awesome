@@ -64,7 +64,7 @@ function populateWebsite(websites) {
     var membersList = document.getElementById("members")
     for(var i=0; i < websites.length; i++) {
       var website = websites[i]
-      membersList.innerHTML += "<li><a href=\"" + website["url"] + "\">" + website["name"] + "</li>\n";
+      membersList.innerHTML += "<li><img src=\"" + website["image"] + "\"/><a href=\"" + website["url"] + "\">" + website["name"] + "</li>\n";
     }
   }
 }
