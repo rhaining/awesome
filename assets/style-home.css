@@ -7,16 +7,6 @@ body {
 h6 {
   font-style: italic;
 }
-@media only screen and (max-width: 1000pt) {
-  body {
-    font-size: 20pt;
-  }
-}
-@media only screen and (max-width: 500pt) {
-  body {
-    font-size: 15pt;
-  }
-}
 li {
   margin-bottom: 1.5em;
   margin-left: 1em;
@@ -31,7 +21,7 @@ li {
 }
 .project-section {
   float: left;
-  width: 250pt;
+  width: 220pt;
   height: 375pt;
   margin: 10pt 20pt;
 }
@@ -51,4 +41,20 @@ li {
 
 .float-clear {
   clear: left;
+}
+
+@media only screen and (max-width: 1000pt) {
+  body {
+    font-size: 20pt;
+  }
+  .project-section {
+    height: 275pt;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 500pt) {
+  body {
+    font-size: 15pt;
+  }
 }
