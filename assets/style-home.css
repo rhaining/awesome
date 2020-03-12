@@ -39,22 +39,19 @@ li {
   text-align: center;
 }
 
-.float-clear {
-  clear: left;
-}
 
 @media only screen and (max-width: 1000pt) {
   body {
     font-size: 20pt;
   }
-  .project-section {
-    height: 275pt;
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 @media only screen and (max-width: 500pt) {
   body {
     font-size: 15pt;
+  }
+  .project-section {
+    height: 275pt;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

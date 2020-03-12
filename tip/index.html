@@ -9,12 +9,26 @@
   <link rel="stylesheet" href="../assets/style-home.css"/>
 
 <style>
+  body {
+     font-size: 20pt;
+  }
   #contribute-list {
     text-align: center;
+    margin-top: 30pt;
+  }
+  .contribute-option {
+    float: left;
+    margin-right: 20pt;
+    margin-bottom: 20pt;
+  }
+  .contribute-img-wrapper {
+    height: 80pt;
+    display: table-cell;
+    vertical-align: middle;
   }
   #contribute-list img {
     max-height: 69pt;
-    margin: 0 30pt;
+    margin: 0pt 30pt;
     max-width: 250pt;
   }
 </style>
@@ -31,14 +45,38 @@
       Projects at Kind of Awesome are entirely independently run (by one person), and your tips are what keep it going. Thank you for&nbsp;helping.
     </p>
 
-    <p>
+    <div>
       Contribute 💵 today via:
       <div id="contribute-list">
-        <a href="https://www.paypal.me/tolar"><img src="static/paypal-logo.png"></a>
-        <a href="https://venmo.com/?txn=pay&recipients=tolar"><img src="https://cdn1.venmo.com/marketing/images/branding/downloads/venmo_logo_blue.png"/></a>
-        <a href="https://cash.app/$RobertHaining"><img src="static/cash-app-logo.png"/></a>
+        <div class="contribute-option">
+          <div class="contribute-img-wrapper">
+            <a href="https://www.paypal.me/tolar"><img src="static/paypal-logo.png"></a>
+          </div>
+          <div>
+            <a href="https://www.paypal.me/tolar">tip via PayPal</a>
+          </div>
+        </div>
+        <div class="contribute-option">
+          <div class="contribute-img-wrapper">
+            <a href="https://venmo.com/?txn=pay&recipients=tolar"><img src="https://cdn1.venmo.com/marketing/images/branding/downloads/venmo_logo_blue.png"/></a>
+          </div>
+          <div>
+            <a href="https://venmo.com/?txn=pay&recipients=tolar">tip via Venmo</a>
+          </div>
+        </div>
+        <div class="contribute-option">
+          <div class="contribute-img-wrapper">
+            <a href="https://cash.app/$RobertHaining"><img src="static/cash-app-logo.png"/></a>
+          </div>
+          <div>
+            <a href="https://cash.app/$RobertHaining">tip via Cash App</a>
+          </div>
+        </div>
       </div>
-    </p>
+    </div>
+
+    <div class="float-clear">&nbsp;</div>
+
 
     <p>
       Check out the projects at <a href="https://kindofawesome.com/">kindofawesome.com</a>.
