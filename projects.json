@@ -3,7 +3,7 @@
     "url": "chinchillas/",
     "logo": {
       "type": "img",
-      "img-url": "chinchillas/static/site-logo.png"
+      "img-url": "chinchillas/static/chinchilla.png"
     },
     "name": "Talking with Chinchillas",
     "info": "the podcast"
