@@ -33,8 +33,23 @@
 <itunes:summary>We ask the hard-hitting questions of the day.</itunes:summary>
 <itunes:subtitle>We ask the hard-hitting questions of the day.</itunes:subtitle>
 
-<pubDate>Tue, 10 Mar 2020 16:57:00 EST</pubDate>
-<lastBuildDate>Tue, 10 Mar 2020 16:57:00 EST</lastBuildDate>
+<pubDate>Fri, 13 Mar 2020 12:45:00 EDT</pubDate>
+<lastBuildDate>Fri, 13 Mar 2020 12:45:00 EDT</lastBuildDate>
+
+<item>
+  <title>Episode 3: The Store</title>
+  <itunes:title>Episode 3: The Store</itunes:title>
+  <itunes:author>Robert Tolar Haining</itunes:author>
+  <description>We ask about their visit to the store this week. Please visit our sponsor at twitter.com/iandees, who reminds you to complete your census online today!</description>
+  <itunes:summary>We ask about their visit to the store this week.</itunes:summary>
+  <itunes:subtitle>We ask about their visit to the store this week.</itunes:subtitle>
+  <link>https://kindofawesome.com/chinchillas/?episode=3</link>
+  <itunesu:category itunesu:code="116104" />
+  <enclosure url="https://kindofawesome.com/chinchillas/podcast/episodes/episode3.mp3" type="audio/mpeg" length="2048993" />
+  <guid>https://kindofawesome.com/chinchillas/podcast/episodes/episode3.mp3</guid>
+  <itunes:duration>0:01:04</itunes:duration>
+  <pubDate>Fri, 13 Mar 2020 12:45:00 EDT</pubDate>
+</item>
 
 <item>
   <title>Episode 2: The Market</title>
@@ -48,7 +63,7 @@
   <enclosure url="https://kindofawesome.com/chinchillas/podcast/episodes/episode2.mp3" type="audio/mpeg" length="1121960" />
   <guid>https://kindofawesome.com/chinchillas/podcast/episodes/episode2.mp3</guid>
   <itunes:duration>0:00:35</itunes:duration>
-  <pubDate>Tue, 10 Mar 2020 16:57:00 EST</pubDate>
+  <pubDate>Tue, 10 Mar 2020 16:57:00 EDT</pubDate>
 </item>
 
 <item>
