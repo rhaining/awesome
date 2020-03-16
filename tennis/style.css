@@ -41,3 +41,10 @@ table#availability th, table#availability td.date-cell {
   width: 500pt;
   display: none;
 }
+
+#corona {
+  font-size: 3em;
+  color: #CF57BD;
+  font-weight: bold;
+  margin: 80pt 80pt;
+}
