@@ -1,6 +1,6 @@
 #content-wrapper {
   text-align: center;
-  max-width: 550pt;
+  max-width: 700pt;
 }
 #logo {
   max-width: 250pt;
@@ -17,7 +17,6 @@
 
 #info-section {
   max-width: 350pt;
-  margin: auto auto;
   padding: 30pt 20pt;
   text-align: left;
   font-size: 1.3em;
@@ -27,14 +26,32 @@
   margin-bottom: 4pt;
 }
 
+.podcast-directory-logo {
+  width: 50px;
+  height: 50px;
+}
+
 #testimonials_section {
-  margin: 20pt auto;
-  width: 75%;
+  margin: 20pt 30pt;
   text-align: left;
+}
+#testimonials_section li {
+  margin-bottom: 8pt;
+}
+
+#podcast-content {
+  float: left;
+  width: 60%;
 }
 
 @media only screen and (max-width: 500pt) {
+  #podcast-content {
+    float: none;
+    width: 100%;
+  }
+
   #testimonials_section {
     width: 100%;
+    margin: 20pt 0;
   }
 }

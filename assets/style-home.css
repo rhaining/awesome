@@ -38,7 +38,9 @@ li {
   line-height: 200pt;
   text-align: center;
 }
-
+#promo {
+  font-size: 0.6em;
+}
 
 @media only screen and (max-width: 1000pt) {
   body {
