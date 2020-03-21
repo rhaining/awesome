@@ -33,8 +33,23 @@
 <itunes:summary>We ask the hard-hitting questions of the day.</itunes:summary>
 <itunes:subtitle>We ask the hard-hitting questions of the day.</itunes:subtitle>
 
-<pubDate>Fri, 13 Mar 2020 12:45:00 EDT</pubDate>
-<lastBuildDate>Fri, 13 Mar 2020 12:45:00 EDT</lastBuildDate>
+<pubDate>Sat, 21 Mar 2020 13:14:00 EDT</pubDate>
+<lastBuildDate>Sat, 21 Mar 2020 13:14:00 EDT</lastBuildDate>
+
+<item>
+  <title>Episode 4: Wash Your Hands</title>
+  <itunes:title>Episode 4: Wash Your Hands</itunes:title>
+  <itunes:author>Robert Tolar Haining</itunes:author>
+  <description>This week, we ask how long one should wash their hands.</description>
+  <itunes:summary>This week, we ask how long one should wash their hands.</itunes:summary>
+  <itunes:subtitle>This week, we ask how long one should wash their hands.</itunes:subtitle>
+  <link>https://kindofawesome.com/chinchillas/?episode=4</link>
+  <itunesu:category itunesu:code="116104" />
+  <enclosure url="https://kindofawesome.com/chinchillas/podcast/episodes/episode4.mp3" type="audio/mpeg" length="1667820" />
+  <guid>https://kindofawesome.com/chinchillas/podcast/episodes/episode4.mp3</guid>
+  <itunes:duration>0:00:52</itunes:duration>
+  <pubDate>Sat, 21 Mar 2020 13:14:00 EDT</pubDate>
+</item>
 
 <item>
   <title>Episode 3: The Store</title>
