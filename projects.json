@@ -1,5 +1,14 @@
 [
   {
+    "url": "https://zooooom.us/",
+    "logo": {
+      "type": "img",
+      "img-url": "assets/zooooom-logo.jpg"
+    },
+    "name": "Zooooom.us",
+    "info": "a screensaver for these anxious times"
+  },
+  {
     "url": "chinchillas/",
     "logo": {
       "type": "img",
