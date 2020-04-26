@@ -33,8 +33,23 @@
 <itunes:summary>We ask the hard-hitting questions of the day.</itunes:summary>
 <itunes:subtitle>We ask the hard-hitting questions of the day.</itunes:subtitle>
 
-<pubDate>Sat, 21 Mar 2020 13:14:00 EDT</pubDate>
-<lastBuildDate>Sat, 21 Mar 2020 13:14:00 EDT</lastBuildDate>
+<pubDate>Sun, 26 Apr 2020 12:52:00 EDT</pubDate>
+<lastBuildDate>Sun, 26 Apr 2020 12:52:00 EDT</lastBuildDate>
+
+<item>
+  <title>Episode 5: What are you streaming?</title>
+  <itunes:title>Episode 5: What are you streaming?</itunes:title>
+  <itunes:author>Robert Tolar Haining</itunes:author>
+  <description>This week, we ask what are you streaming? Special guest: Santi! This episode brought to you by Zooooom.us.</description>
+  <itunes:summary>This week, we ask what are you streaming. Special guest: Santi! This episode brought to you by Zooooom.us!</itunes:summary>
+  <itunes:subtitle>This week, we ask what are you streaming. Special guest: Santi! This episode brought to you by Zooooom.us.</itunes:subtitle>
+  <link>https://kindofawesome.com/chinchillas/?episode=5</link>
+  <itunesu:category itunesu:code="116104" />
+  <enclosure url="https://kindofawesome.com/chinchillas/podcast/episodes/episode5.mp3" type="audio/mpeg" length="1953712" />
+  <guid>https://kindofawesome.com/chinchillas/podcast/episodes/episode5.mp3</guid>
+  <itunes:duration>0:01:01</itunes:duration>
+  <pubDate>Sun, 26 Apr 2020 12:52:00 EDT</pubDate>
+</item>
 
 <item>
   <title>Episode 4: Wash Your Hands</title>
