@@ -37,4 +37,19 @@ body {
     margin-left: 20pt;
     margin-right: 20pt;
   }
+  #quote {
+    font-size: 30pt;
+  }
+  #date {
+    font-size: 15pt;
+  }
+  #link-container {
+    font-size: 13pt;
+  }
+  #refresh {
+    font-size: 11pt;
+  }
+  #footer {
+    font-size: 11pt;
+  }
 }
