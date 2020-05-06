@@ -15,7 +15,7 @@ function fetchQuotes() {
   if (window.location.protocol == "file:") {
     xhttp.open("GET", "quotes.json", true)
   } else {
-    xhttp.open("GET", "https://kindofawesome.com/projects.json", true)
+    xhttp.open("GET", "https://kindofawesome.com/clintquotes/quotes.json", true)
   }
   xhttp.send();
 }
