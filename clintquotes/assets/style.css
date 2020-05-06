@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(50,250,255);
+  color: rgb(255,50,250);
+  font-family: Futura;
+}
+#content {
+  max-width: 500pt;
+  margin: 5vw auto;
+}
+#quote {
+  font-size: 5vw;
+}
+#date {
+  font-size: 2vw;
+  text-align: right;
+}
+#link-container {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.5vw;
+}
+#refresh {
+  font-size: 1vw;
+  max-width: 200pt;
+  margin: 40pt auto;
+  text-align: center;
+  font-style: italic;
+}
+#footer {
+  font-size: 1vw;
+  max-width: 300pt;
+  margin: 40pt auto;
+  text-align: center;
+}
+@media only screen and (max-width: 600pt) {
+  #content {
+    margin-left: 20pt;
+    margin-right: 20pt;
+  }
+}

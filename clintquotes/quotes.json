@@ -1,0 +1,49 @@
+{
+  "quotes": [
+    {
+      "quote": "You can only maximize your influence if you do not wield your influence.",
+      "date": "October 3, 2017",
+      "uuid": "1c647d96-c384-43c0-8f11-6120c142478d"
+    },
+    {
+      "quote": "We can't all be great like me.",
+      "date": "November 10, 2017",
+      "uuid": "355c22df-f68c-49b7-93bd-c1bde5fbabcc"
+    },
+    {
+      "quote": "The fastest code is the code that's never written.",
+      "date": "November 13, 2017",
+      "uuid": "c6d74fc9-da83-4cf2-927c-b91daff70e45"
+    },
+    {
+      "quote": "The only way to win the whiteboarding interview is not to whiteboard.",
+      "date": "December 4, 2017",
+      "uuid": "0e980aca-0372-423c-b627-891e5bc1526f"
+    },
+    {
+      "quote": "The best 1:1 is where the other person doesn't show up.",
+      "date": "December 8, 2017",
+      "uuid": "103e78a9-bdb7-4887-9fd3-5504f718cc3e"
+    },
+    {
+      "quote": "The body is just a husk for the mind.",
+      "date": "December 4, 2018",
+      "uuid": "b43a6ec4-148b-4ee5-b8c2-7bf3df17773e"
+    },
+    {
+      "quote": "The body is just a corn husk for the mind.",
+      "date": "December 4, 2018",
+      "uuid": "22c6a4be-9fe9-43c4-b812-bc8df3e294b1"
+    },
+    {
+      "quote": "To get to 800 you must first get to 100.",
+      "date": "February 27, 2019",
+      "uuid": "ebf81f2d-9ce8-4d67-9664-a0c811ef3ebc"
+    },
+    {
+      "quote": "Is an array with only one item still an array?",
+      "date": "March 29, 2019",
+      "uuid": "ac087def-4ec7-44a3-a99d-6bcbb352d879"
+    }
+  ]
+}

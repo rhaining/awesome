@@ -1,0 +1,26 @@
+<html>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="assets/style.css"/>
+<script type="text/javascript" src="assets/script.js"></script>
+
+<body onload="fetchQuotes()">
+  <div id="content">
+    <div id="loading">loading&hellip;</div>
+    <div id="error"></div>
+    <div id="quote"></div>
+    <div id="date"></div>
+    <div id="link-container">
+      <a id="tweet" href="#">Tweet</a>
+      /
+      <a id="link" href="#">Link</a>
+    </div>
+    <div id="refresh">
+      <a href="?" onclick="refresh()">refresh</a>
+    </div>
+    <div id="footer">
+      &copy; Copyright 2020 ClintQuot.es LLC Incorporated <i>d.b.a.</i> Gooci Corp
+    </div>
+  </div>
+</body>
+</html>
