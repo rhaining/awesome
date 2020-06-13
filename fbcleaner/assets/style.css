@@ -1,0 +1,71 @@
+
+
+.wordmark {
+  font-family: Helvetica;
+  /* font-size: 1.5em; */
+  /* line-height: 3.5em; */
+}
+
+#header {
+  text-align: center;
+  margin-bottom: 40pt;
+}
+
+div#logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25pt;
+}
+
+#header div#logo-container .wordmark {
+  margin-top: 0.3em;
+	font-size: 50pt;
+  /* line-height: 1em; */
+}
+#header h2, #header h3 {
+  margin-top: 0;
+  margin-bottom: 10pt;
+}
+img#logo {
+  height: 120pt;
+}
+@media only screen and (max-width: 1000px) {
+  #header div#logo-container .wordmark {
+  	font-size: 20pt;
+    line-height: 2em;
+  }
+  img#logo {
+    height: 80pt;
+  }
+}
+
+#demo_mov {
+  float: right;
+  margin-left: 40pt;
+}
+#demo_mov video {
+  border: 2pt solid #bbb;
+}
+@media only screen and (max-width: 1000px) {
+  #demo_mov {
+    float: none;
+    margin-left: auto;
+    text-align: center;
+  }
+  #demo_mov video {
+    max-width: 100%;
+  }
+}
+#description {
+  line-height: 1.8em;
+}
+#description ul {
+  margin-top: 0;
+}
+.smaller {
+  font-size: 0.8em;
+}
+#twitter-logo {
+  height: 1em;
+}
