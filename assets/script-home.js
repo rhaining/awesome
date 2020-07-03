@@ -16,7 +16,7 @@ function fetchProjects() {
   if (window.location.protocol == "file:") {
     xhttp.open("GET", "projects.json", true)
   } else {
-    xhttp.open("GET", "https://kindofawesome.com/projects.json", true)
+    xhttp.open("GET", "projects.json", true)
   }
   xhttp.send();
 

@@ -1,0 +1,48 @@
+[
+  {
+    "title": "screensavers",
+    "projects": [
+      {
+        "url": "/screensaver/sky/",
+        "logo": {
+          "type": "img",
+          "img-url": "/screensaver/sky/assets/logo.png"
+        },
+        "name": "Sky",
+        "info": "a screensaver"
+      },
+      {
+        "url": "https://zooooom.us/",
+        "logo": {
+          "type": "img",
+          "img-url": "/assets/zooooom-logo.jpg"
+        },
+        "name": "Zooooom.us",
+        "info": "a screensaver for these anxious times"
+      },
+      {
+        "url": "/screensaver/presidential_hopefuls/",
+        "logo": {
+          "type": "img",
+          "img-url": "/screensaver/presidential_hopefuls/assets/logo.png"
+        },
+        "name": "Presidential Hopefuls",
+        "info": "a screensaver"
+      }
+    ]
+  },
+  {
+    "title": "support",
+    "projects": [
+      {
+        "url": "/tip/",
+        "logo": {
+          "type": "txt",
+          "text": "💵"
+        },
+        "name": "Contribute",
+        "info": "your tips keep these projects going"
+      }
+    ]
+  }
+]

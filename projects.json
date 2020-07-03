@@ -3,6 +3,15 @@
     "title": "current projects",
     "projects": [
       {
+        "url": "/screensaver/sky/",
+        "logo": {
+          "type": "img",
+          "img-url": "screensaver/sky/assets/logo.png"
+        },
+        "name": "Sky",
+        "info": "a screensaver"
+      },
+      {
         "url": "https://zooooom.us/",
         "logo": {
           "type": "img",
@@ -12,7 +21,7 @@
         "info": "a screensaver for these anxious times"
       },
       {
-        "url": "chinchillas/",
+        "url": "/chinchillas/",
         "logo": {
           "type": "img",
           "img-url": "chinchillas/static/chinchilla.png"
@@ -21,10 +30,10 @@
         "info": "the podcast"
       },
       {
-        "url": "screensaver/",
+        "url": "/screensaver/presidential_hopefuls/",
         "logo": {
           "type": "img",
-          "img-url": "screensaver/assets/logo.png"
+          "img-url": "screensaver/presidential_hopefuls/assets/logo.png"
         },
         "name": "Presidential Hopefuls",
         "info": "a screensaver"
