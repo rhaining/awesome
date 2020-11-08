@@ -33,8 +33,23 @@
 <itunes:summary>We ask the hard-hitting questions of the day.</itunes:summary>
 <itunes:subtitle>We ask the hard-hitting questions of the day.</itunes:subtitle>
 
-<pubDate>Sun, 26 Apr 2020 12:52:00 EDT</pubDate>
-<lastBuildDate>Sun, 26 Apr 2020 12:52:00 EDT</lastBuildDate>
+<pubDate>Sun, 08 Nov 2020 12:16:00 EDT</pubDate>
+<lastBuildDate>Sun, 08 Nov 2020 12:16:00 EDT</lastBuildDate>
+
+<item>
+  <title>Episode 6: The Results</title>
+  <itunes:title>Episode 6: The Results</itunes:title>
+  <itunes:author>Robert Tolar Haining</itunes:author>
+  <description>Breaking news from the decision desk of talking with Chinchillas.</description>
+  <itunes:summary>Breaking news from the decision desk of talking with Chinchillas.</itunes:summary>
+  <itunes:subtitle>Breaking news from the decision desk of talking with Chinchillas.</itunes:subtitle>
+  <link>https://kindofawesome.com/chinchillas/?episode=6</link>
+  <itunesu:category itunesu:code="116104" />
+  <enclosure url="https://kindofawesome.com/chinchillas/podcast/episodes/episode6.mp3" type="audio/mpeg" length="1597158" />
+  <guid>https://kindofawesome.com/chinchillas/podcast/episodes/episode6.mp3</guid>
+  <itunes:duration>0:01:00</itunes:duration>
+  <pubDate>Sun, 08 Nov 2020 12:16:00 EDT</pubDate>
+</item>
 
 <item>
   <title>Episode 5: What are you streaming?</title>
