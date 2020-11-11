@@ -12,13 +12,13 @@
         "info": "a screensaver"
       },
       {
-        "url": "https://zooooom.us/",
+        "url": "tennis/",
         "logo": {
-          "type": "img",
-          "img-url": "assets/zooooom-logo.jpg"
+          "type": "txt",
+          "text": "🎾"
         },
-        "name": "Zooooom.us",
-        "info": "a screensaver for these anxious times"
+        "name": "Mccarren tennis",
+        "info": "a simpler way to find times to book tennis courts"
       },
       {
         "url": "/chinchillas/",
@@ -30,13 +30,13 @@
         "info": "the podcast"
       },
       {
-        "url": "/screensaver/presidential_hopefuls/",
+        "url": "https://zooooom.us/",
         "logo": {
           "type": "img",
-          "img-url": "screensaver/presidential_hopefuls/assets/logo.png"
+          "img-url": "assets/zooooom-logo.jpg"
         },
-        "name": "Presidential Hopefuls",
-        "info": "a screensaver"
+        "name": "Zooooom.us",
+        "info": "a screensaver for these anxious times"
       },
       {
         "url": "https://twitter.com/peakwarmth",
@@ -46,15 +46,6 @@
         },
         "name": "Peak Warmth",
         "info": "the best time to go outside"
-      },
-      {
-        "url": "webring/",
-        "logo": {
-          "type": "html",
-          "html": "<a title=\"Alberto Lot / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)\" href=\"https://commons.wikimedia.org/wiki/File:World_Wide_Web_logo.png\"><img alt=\"World Wide Web logo\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/World_Wide_Web_logo.png/512px-World_Wide_Web_logo.png\"></a>"
-        },
-        "name": "Kind of Awesome webring",
-        "info": "bringing blogs and websites together"
       },
       {
         "url": "https://apps.apple.com/us/app/chromatic-pocket-stylist/id645307922?ls=1",
@@ -85,6 +76,24 @@
     "title": "projects on hiatus",
     "projects": [
       {
+        "url": "webring/",
+        "logo": {
+          "type": "html",
+          "html": "<a title=\"Alberto Lot / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)\" href=\"https://commons.wikimedia.org/wiki/File:World_Wide_Web_logo.png\"><img alt=\"World Wide Web logo\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/World_Wide_Web_logo.png/512px-World_Wide_Web_logo.png\"></a>"
+        },
+        "name": "Kind of Awesome webring",
+        "info": "bringing blogs and websites together"
+      },
+      {
+        "url": "/screensaver/presidential_hopefuls/",
+        "logo": {
+          "type": "img",
+          "img-url": "screensaver/presidential_hopefuls/assets/logo.png"
+        },
+        "name": "Presidential Hopefuls",
+        "info": "a screensaver"
+      },
+      {
         "url": "calendar/",
         "logo": {
           "type": "txt",
@@ -92,15 +101,6 @@
         },
         "name": "2020 Democratic party calendar",
         "info": "a subscribable calendar for primaries, caucuses, &amp; debates"
-      },
-      {
-        "url": "tennis/",
-        "logo": {
-          "type": "txt",
-          "text": "🎾"
-        },
-        "name": "Mccarren tennis",
-        "info": "a simpler way to find times to book tennis courts"
       }
     ]
   }
