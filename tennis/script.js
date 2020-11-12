@@ -17,7 +17,7 @@ function loadAvailabilities() {
   if (window.location.protocol == "file:") {
     xhttp.open("GET", "tennis_courts_availability.json", true)
   } else {
-    xhttp.open("GET", "https://api.kindofawesome.com/mccarren", true)
+    xhttp.open("GET", "https://api.kindofawesome.com/mccarren?r=" + Date.now(), true)
   }
   xhttp.send();
 }
