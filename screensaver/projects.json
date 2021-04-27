@@ -3,6 +3,15 @@
     "title": "screensavers",
     "projects": [
       {
+        "url": "/screensaver/colors/",
+        "logo": {
+          "type": "img",
+          "img-url": "/screensaver/colors/assets/logo.png"
+        },
+        "name": "Colors",
+        "info": "a screensaver"
+      },
+      {
         "url": "/screensaver/sky/",
         "logo": {
           "type": "img",
