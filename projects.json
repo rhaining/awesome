@@ -55,15 +55,6 @@
         },
         "name": "Peak Warmth",
         "info": "the best time to go outside"
-      },
-      {
-        "url": "https://apps.apple.com/us/app/chromatic-pocket-stylist/id645307922?ls=1",
-        "logo": {
-          "type": "img",
-          "img-url": "assets/chromatic-logo.png"
-        },
-        "name": "Chromatic Pocket Stylist",
-        "info": "search Etsy for colors in your home"
       }
     ]
   },
@@ -101,6 +92,15 @@
         },
         "name": "Presidential Hopefuls",
         "info": "a screensaver"
+      },
+      {
+        "url": "https://apps.apple.com/us/app/chromatic-pocket-stylist/id645307922?ls=1",
+        "logo": {
+          "type": "img",
+          "img-url": "assets/chromatic-logo.png"
+        },
+        "name": "Chromatic Pocket Stylist",
+        "info": "search Etsy for colors in your home"
       },
       {
         "url": "calendar/",
