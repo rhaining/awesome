@@ -1,0 +1,369 @@
+{
+    "availability": [
+        {
+            "time": "Mon. Nov 14, 2022 12:00 pm",
+            "name": "Adv Beginner Clinic",
+            "availability": "1 of 4 open",
+            "trainer": "Jordan  T.",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Mon.+Nov+14%2C+2022+12%3A00+pm&item%5Bmbo_id%5D=35789&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Adv+Beginner+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Tue. Nov 15, 2022  7:00 pm",
+            "name": "Beginners Clinic",
+            "availability": "1 of 4 open",
+            "trainer": "Jeremy Lynn",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Tue.+Nov+15%2C+2022++7%3A00+pm&item%5Bmbo_id%5D=34654&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Fri. Nov 25, 2022  7:00 pm",
+            "name": "Cardio Tennis - Adv. Beginner",
+            "availability": "2 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Fri.+Nov+25%2C+2022++7%3A00+pm&item%5Bmbo_id%5D=35076&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Adv.+Beginner&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Nov 26, 2022 12:00 pm",
+            "name": "Cardio Tennis - Adv. Beginner",
+            "availability": "2 of 6 open",
+            "trainer": "Gary Preston",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Nov+26%2C+2022+12%3A00+pm&item%5Bmbo_id%5D=35284&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Adv.+Beginner&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Wed. Dec 14, 2022 10:00 am",
+            "name": "Beginners Clinic",
+            "availability": "2 of 4 open",
+            "trainer": "Leon Megyeri",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Wed.+Dec+14%2C+2022+10%3A00+am&item%5Bmbo_id%5D=34819&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Wed. Dec 14, 2022 12:00 pm",
+            "name": "Intermediate Clinic ",
+            "availability": "1 of 4 open",
+            "trainer": "Jordan  T.",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Wed.+Dec+14%2C+2022+12%3A00+pm&item%5Bmbo_id%5D=35819&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Dec 17, 2022  8:30 am",
+            "name": "Beginners Clinic",
+            "availability": "4 of 4 open",
+            "trainer": "Omar  Durrani",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Dec+17%2C+2022++8%3A30+am&item%5Bmbo_id%5D=35700&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Tue. Dec 20, 2022  7:00 pm",
+            "name": "Beginners Clinic",
+            "availability": "1 of 4 open",
+            "trainer": "Jeremy Lynn",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Tue.+Dec+20%2C+2022++7%3A00+pm&item%5Bmbo_id%5D=34659&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Wed. Dec 21, 2022 10:00 am",
+            "name": "Beginners Clinic",
+            "availability": "3 of 4 open",
+            "trainer": "Leon Megyeri",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Wed.+Dec+21%2C+2022+10%3A00+am&item%5Bmbo_id%5D=34820&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Fri. Dec 23, 2022  7:00 pm",
+            "name": "Cardio Tennis - Adv. Beginner",
+            "availability": "3 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Fri.+Dec+23%2C+2022++7%3A00+pm&item%5Bmbo_id%5D=35080&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Adv.+Beginner&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Dec 24, 2022  8:30 am",
+            "name": "Beginners Clinic",
+            "availability": "3 of 4 open",
+            "trainer": "Omar  Durrani",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Dec+24%2C+2022++8%3A30+am&item%5Bmbo_id%5D=35701&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Mon. Dec 26, 2022 10:00 am",
+            "name": "Intermediate Clinic ",
+            "availability": "1 of 4 open",
+            "trainer": "Daniel Vizhnay",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Mon.+Dec+26%2C+2022+10%3A00+am&item%5Bmbo_id%5D=34530&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Mon. Dec 26, 2022 10:00 am",
+            "name": "Adv Beginner Clinic",
+            "availability": "3 of 4 open",
+            "trainer": "Omar  Durrani",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Mon.+Dec+26%2C+2022+10%3A00+am&item%5Bmbo_id%5D=35676&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Adv+Beginner+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Tue. Dec 27, 2022  7:00 pm",
+            "name": "Beginners Clinic",
+            "availability": "3 of 4 open",
+            "trainer": "Jeremy Lynn",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Tue.+Dec+27%2C+2022++7%3A00+pm&item%5Bmbo_id%5D=34660&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Tue. Dec 27, 2022 10:00 am",
+            "name": "Advanced Clinic",
+            "availability": "2 of 4 open",
+            "trainer": "Omar  Durrani",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Tue.+Dec+27%2C+2022+10%3A00+am&item%5Bmbo_id%5D=35757&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Advanced+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Wed. Dec 28, 2022 10:00 am",
+            "name": "Intermediate Clinic ",
+            "availability": "1 of 4 open",
+            "trainer": "Fernando Lista",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Wed.+Dec+28%2C+2022+10%3A00+am&item%5Bmbo_id%5D=34741&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Wed. Dec 28, 2022  7:00 pm",
+            "name": "Intermediate Clinic ",
+            "availability": "1 of 4 open",
+            "trainer": "Jeremy Lynn",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Wed.+Dec+28%2C+2022++7%3A00+pm&item%5Bmbo_id%5D=34768&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Wed. Dec 28, 2022  7:00 pm",
+            "name": "Cardio Tennis - Advanced",
+            "availability": "2 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Wed.+Dec+28%2C+2022++7%3A00+pm&item%5Bmbo_id%5D=34847&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Advanced&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Thu. Dec 29, 2022 10:00 am",
+            "name": "Advanced Clinic",
+            "availability": "1 of 4 open",
+            "trainer": "Fernando Lista",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Thu.+Dec+29%2C+2022+10%3A00+am&item%5Bmbo_id%5D=34925&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Advanced+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Thu. Dec 29, 2022  7:00 pm",
+            "name": "Cardio Tennis - Intermediate ",
+            "availability": "3 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Thu.+Dec+29%2C+2022++7%3A00+pm&item%5Bmbo_id%5D=34951&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Intermediate+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Fri. Dec 30, 2022 10:00 am",
+            "name": "Intermediate Clinic ",
+            "availability": "2 of 4 open",
+            "trainer": "Fernando Lista",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Fri.+Dec+30%2C+2022+10%3A00+am&item%5Bmbo_id%5D=35055&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Fri. Dec 30, 2022  7:00 pm",
+            "name": "Cardio Tennis - Adv. Beginner",
+            "availability": "6 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Fri.+Dec+30%2C+2022++7%3A00+pm&item%5Bmbo_id%5D=35081&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Adv.+Beginner&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Fri. Dec 30, 2022  1:30 pm",
+            "name": "Intermediate Clinic ",
+            "availability": "3 of 4 open",
+            "trainer": "Assign Pro",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Fri.+Dec+30%2C+2022++1%3A30+pm&item%5Bmbo_id%5D=35858&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Dec 31, 2022  8:30 am",
+            "name": "Intermediate Clinic ",
+            "availability": "1 of 4 open",
+            "trainer": "Rob Nita",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Dec+31%2C+2022++8%3A30+am&item%5Bmbo_id%5D=35133&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Dec 31, 2022  8:30 am",
+            "name": "Intermediate Clinic ",
+            "availability": "1 of 4 open",
+            "trainer": "Fernando Lista",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Dec+31%2C+2022++8%3A30+am&item%5Bmbo_id%5D=35159&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Dec 31, 2022 12:00 pm",
+            "name": "Cardio Tennis - Adv. Beginner",
+            "availability": "1 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Dec+31%2C+2022+12%3A00+pm&item%5Bmbo_id%5D=35263&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Adv.+Beginner&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Dec 31, 2022  1:30 pm",
+            "name": "Cardio Tennis - Intermediate ",
+            "availability": "2 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Dec+31%2C+2022++1%3A30+pm&item%5Bmbo_id%5D=35315&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Intermediate+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Dec 31, 2022  8:30 am",
+            "name": "Beginners Clinic",
+            "availability": "4 of 4 open",
+            "trainer": "Omar  Durrani",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Dec+31%2C+2022++8%3A30+am&item%5Bmbo_id%5D=35702&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Mon. Jan  2, 2023 10:00 am",
+            "name": "Advanced Clinic",
+            "availability": "1 of 4 open",
+            "trainer": "Rob Nita",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Mon.+Jan++2%2C+2023+10%3A00+am&item%5Bmbo_id%5D=34505&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Advanced+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Mon. Jan  2, 2023 10:00 am",
+            "name": "Adv Beginner Clinic",
+            "availability": "1 of 4 open",
+            "trainer": "Omar  Durrani",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Mon.+Jan++2%2C+2023+10%3A00+am&item%5Bmbo_id%5D=35677&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Adv+Beginner+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Mon. Jan  2, 2023 12:00 pm",
+            "name": "Adv Beginner Clinic",
+            "availability": "3 of 4 open",
+            "trainer": "Assign Pro",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Mon.+Jan++2%2C+2023+12%3A00+pm&item%5Bmbo_id%5D=35796&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Adv+Beginner+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Tue. Jan  3, 2023 10:00 am",
+            "name": "Advanced Clinic",
+            "availability": "1 of 4 open",
+            "trainer": "Fernando Lista",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Tue.+Jan++3%2C+2023+10%3A00+am&item%5Bmbo_id%5D=34583&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Advanced+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Tue. Jan  3, 2023  7:00 pm",
+            "name": "Beginners Clinic",
+            "availability": "3 of 4 open",
+            "trainer": "Jeremy Lynn",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Tue.+Jan++3%2C+2023++7%3A00+pm&item%5Bmbo_id%5D=34661&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Tue. Jan  3, 2023  7:00 pm",
+            "name": "Cardio Tennis - Intermediate ",
+            "availability": "3 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Tue.+Jan++3%2C+2023++7%3A00+pm&item%5Bmbo_id%5D=34688&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Intermediate+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Tue. Jan  3, 2023 10:00 am",
+            "name": "Advanced Clinic",
+            "availability": "4 of 4 open",
+            "trainer": "Assign Pro",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Tue.+Jan++3%2C+2023+10%3A00+am&item%5Bmbo_id%5D=35758&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Advanced+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Tue. Jan  3, 2023 12:00 pm",
+            "name": "Beginners Clinic",
+            "availability": "4 of 4 open",
+            "trainer": "Assign Pro",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Tue.+Jan++3%2C+2023+12%3A00+pm&item%5Bmbo_id%5D=35882&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Wed. Jan  4, 2023  7:00 pm",
+            "name": "Intermediate Clinic ",
+            "availability": "2 of 4 open",
+            "trainer": "Jeremy Lynn",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Wed.+Jan++4%2C+2023++7%3A00+pm&item%5Bmbo_id%5D=34769&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Wed. Jan  4, 2023 10:00 am",
+            "name": "Beginners Clinic",
+            "availability": "4 of 4 open",
+            "trainer": "Assign Pro",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Wed.+Jan++4%2C+2023+10%3A00+am&item%5Bmbo_id%5D=34822&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Wed. Jan  4, 2023 12:00 pm",
+            "name": "Intermediate Clinic ",
+            "availability": "4 of 4 open",
+            "trainer": "Assign Pro",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Wed.+Jan++4%2C+2023+12%3A00+pm&item%5Bmbo_id%5D=35822&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Thu. Jan  5, 2023 10:00 am",
+            "name": "Intermediate Clinic ",
+            "availability": "2 of 4 open",
+            "trainer": "Assign Pro",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Thu.+Jan++5%2C+2023+10%3A00+am&item%5Bmbo_id%5D=34874&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Thu. Jan  5, 2023 10:00 am",
+            "name": "Intermediate Clinic ",
+            "availability": "1 of 4 open",
+            "trainer": "John F.",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Thu.+Jan++5%2C+2023+10%3A00+am&item%5Bmbo_id%5D=34900&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Thu. Jan  5, 2023 10:00 am",
+            "name": "Advanced Clinic",
+            "availability": "1 of 4 open",
+            "trainer": "Fernando Lista",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Thu.+Jan++5%2C+2023+10%3A00+am&item%5Bmbo_id%5D=34926&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Advanced+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Thu. Jan  5, 2023  7:00 pm",
+            "name": "Cardio Tennis - Intermediate ",
+            "availability": "3 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Thu.+Jan++5%2C+2023++7%3A00+pm&item%5Bmbo_id%5D=34952&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Intermediate+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Fri. Jan  6, 2023 10:00 am",
+            "name": "Intermediate Clinic ",
+            "availability": "2 of 4 open",
+            "trainer": "Fernando Lista",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Fri.+Jan++6%2C+2023+10%3A00+am&item%5Bmbo_id%5D=35056&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Fri. Jan  6, 2023  7:00 pm",
+            "name": "Cardio Tennis - Adv. Beginner",
+            "availability": "3 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Fri.+Jan++6%2C+2023++7%3A00+pm&item%5Bmbo_id%5D=35082&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Adv.+Beginner&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Jan  7, 2023 12:00 pm",
+            "name": "Cardio Tennis - Adv. Beginner",
+            "availability": "5 of 6 open",
+            "trainer": "Assign Pro",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Jan++7%2C+2023+12%3A00+pm&item%5Bmbo_id%5D=35290&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Adv.+Beginner&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Jan  7, 2023  1:30 pm",
+            "name": "Cardio Tennis - Intermediate ",
+            "availability": "3 of 6 open",
+            "trainer": "Anna Edelman",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Jan++7%2C+2023++1%3A30+pm&item%5Bmbo_id%5D=35316&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Intermediate+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Jan  7, 2023  1:30 pm",
+            "name": "Cardio Tennis - Intermediate ",
+            "availability": "6 of 6 open",
+            "trainer": "Assign Pro",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Jan++7%2C+2023++1%3A30+pm&item%5Bmbo_id%5D=35342&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Intermediate+&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Jan  7, 2023  3:00 pm",
+            "name": "Cardio Tennis - Advanced",
+            "availability": "1 of 6 open",
+            "trainer": "Assign Pro",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Jan++7%2C+2023++3%3A00+pm&item%5Bmbo_id%5D=35394&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Cardio+Tennis+-+Advanced&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sat. Jan  7, 2023  8:30 am",
+            "name": "Beginners Clinic",
+            "availability": "4 of 4 open",
+            "trainer": "Omar  Durrani",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sat.+Jan++7%2C+2023++8%3A30+am&item%5Bmbo_id%5D=35703&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sun. Jan  8, 2023  8:30 am",
+            "name": "Beginners Clinic",
+            "availability": "3 of 4 open",
+            "trainer": "Ellie S.",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sun.+Jan++8%2C+2023++8%3A30+am&item%5Bmbo_id%5D=35420&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Beginners+Clinic&item%5Btype%5D=Class"
+        },
+        {
+            "time": "Sun. Jan  8, 2023  8:30 am",
+            "name": "Intermediate Clinic ",
+            "availability": "1 of 4 open",
+            "trainer": "Omar  Durrani",
+            "url": "https://cart.mindbodyonline.com/sites/19060/cart/add_booking?item%5Binfo%5D=Sun.+Jan++8%2C+2023++8%3A30+am&item%5Bmbo_id%5D=35729&item%5Bmbo_location_id%5D=1&item%5Bname%5D=Intermediate+Clinic+&item%5Btype%5D=Class"
+        }
+    ],
+    "last_updated": "2022-11-12 01:47:31 PM"
+}
