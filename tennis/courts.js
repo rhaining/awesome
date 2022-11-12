@@ -1,4 +1,4 @@
-function loadAvailabilities() {
+function loadCourtAvailabilities() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -23,11 +23,11 @@ function loadAvailabilities() {
 }
 
 function populateLastUpdated(last_updated) {
-  document.getElementById("last_updated").innerHTML = last_updated
+  document.getElementById("courts_last_updated").innerHTML = last_updated
 }
 
 function populateAvailabilities(availabilities) {
-  table = document.getElementById("availability")
+  table = document.getElementById("courts")
 
   unique_dates = availabilities.map(getDate).filter(onlyUnique)
   unique_times = availabilities.map(getTime).filter(onlyUnique).sort(function (a, b) {

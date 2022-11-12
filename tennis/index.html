@@ -1,7 +1,8 @@
 <html>
 <head>
   <meta charset="UTF-8"/>
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="courts.js"></script>
+  <script type="text/javascript" src="lessons.js"></script>
   <link rel="stylesheet" href="../assets/style.css"/>
   <link rel="stylesheet" type="text/css" href="style.css"/>
   <link rel="icon" type="image/png" href="../assets/favicon-16.png" sizes="16x16"></link>
@@ -9,7 +10,7 @@
 
   <title>Mccarren courts</title>
 </head>
-<body onload="loadAvailabilities()">
+<body onload="loadCourtAvailabilities(); loadLessonAvailabilities();">
 <!-- <body> -->
   <!-- <div id="content-wrapper">
     <div id="corona">
@@ -18,19 +19,22 @@
   </div> -->
 
   
-  <h2><a href="https://mccarren.tennis/" target=_blank>Mccarren Tennis Courts</a>: 1-hour slots available over the next 7 days</h2>
+  <h2><a href="https://mccarren.tennis/" target=_blank>Mccarren Tennis Courts</a>: 1-hour court slots &amp; clinic lessons available available over the next 30 days</h2>
   <h3>Select your date, time, &amp; court to book</h3>
   
-  <h5>(winter only – last updated: <span id="last_updated"></span>)</h5>
+  <h5>(winter only – courts last updated: <span id="courts_last_updated"></span>)</h5>
   <div id="error"></div>
-  <table id="availability"></table>
+  <table id="courts"></table>
+  <hr/>
+  <h5>lessons last updated: <span id="lessons_last_updated"></span></h5>
+  <table id="lessons"></table>
   <div id="loading">loading…</div>
   
 
 
   <div id="footer">
     <p>Check out more projects at <a href="https://kindofawesome.com/">kindofawesome.com</a>. Or my other things on the internet at <a href="http://tolar.ws/">tolar.ws</a>.</p>
-    <p>&copy; Copyright 2021 Robert Tolar Haining. All rights reserved.</p>
+    <p>&copy; Copyright 2022 Robert Tolar Haining. All rights reserved.</p>
   </div>
 </body>
 </html>
