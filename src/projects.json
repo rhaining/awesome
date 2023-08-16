@@ -3,6 +3,15 @@
     "title": "current projects",
     "projects": [
       {
+        "url": "/screensaver/presidential_hopefuls/",
+        "logo": {
+          "type": "img",
+          "img-url": "screensaver/presidential_hopefuls/assets/logo.png"
+        },
+        "name": "Presidential Hopefuls",
+        "info": "a screensaver"
+      },
+      {
         "url": "/screensaver/colors/",
         "logo": {
           "type": "img",
@@ -83,15 +92,6 @@
         },
         "name": "Kind of Awesome webring",
         "info": "bringing blogs and websites together"
-      },
-      {
-        "url": "/screensaver/presidential_hopefuls/",
-        "logo": {
-          "type": "img",
-          "img-url": "screensaver/presidential_hopefuls/assets/logo.png"
-        },
-        "name": "Presidential Hopefuls",
-        "info": "a screensaver"
       },
       {
         "url": "https://apps.apple.com/us/app/chromatic-pocket-stylist/id645307922?ls=1",
