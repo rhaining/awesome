@@ -43,10 +43,10 @@ img#logo {
 #demo_mov {
   float: right;
   margin-left: 40pt;
-  max-width: 400pt;
 }
 #demo_mov video {
   border: 2pt solid #bbb;
+  max-width: 200pt;
 }
 @media only screen and (max-width: 1000px) {
   #demo_mov {
