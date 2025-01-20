@@ -20,23 +20,27 @@ li {
   font-style: italic;
 }
 .project-section {
-  float: left;
-  width: 220pt;
-  height: 375pt;
+  /* float: left; */
+  width: 350pt;
+  height: 125pt;
   margin: 10pt 20pt;
 }
 .project-section  img {
-  width: 200pt;
+  width: 100pt;
 }
 .project-section .img-logo, .project-section .html-logo {
-  height: 210pt;
+  height: 110pt;
 }
 .project-section .text-logo {
-  width: 200pt;
-  height: 210pt;
-  font-size: 200pt;
-  line-height: 200pt;
+  width: 100pt;
+  height: 110pt;
+  font-size: 100pt;
+  line-height: 100pt;
   text-align: center;
+}
+.project-section .img-logo, .project-section .html-logo, .project-section .text-logo {
+  float: left;
+  padding-right: 12pt;
 }
 #promo {
   font-size: 0.6em;

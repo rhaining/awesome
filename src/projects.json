@@ -3,14 +3,14 @@
     "title": "current projects",
     "projects": [
       {
-        "url": "/screensaver/presidential_hopefuls/",
-        "logo": {
-          "type": "img",
-          "img-url": "screensaver/presidential_hopefuls/assets/logo.png"
-        },
-        "name": "Presidential Hopefuls",
-        "info": "a screensaver"
+      "url": "/screensaver/skyspace/",
+      "logo": {
+        "type": "img",
+        "img-url": "screensaver/skyspace/assets/logo.png"
       },
+      "name": "SkySpaceSaver",
+      "info": "a screensaver"
+    },
       {
         "url": "/screensaver/colors/",
         "logo": {
@@ -30,15 +30,6 @@
         "info": "a screensaver"
       },
       {
-        "url": "tennis/",
-        "logo": {
-          "type": "txt",
-          "text": "🎾"
-        },
-        "name": "Mccarren tennis",
-        "info": "a simpler way to find times to book tennis courts"
-      },
-      {
         "url": "/chinchillas/",
         "logo": {
           "type": "img",
@@ -55,35 +46,22 @@
         },
         "name": "Zooooom.us",
         "info": "a screensaver for these anxious times"
-      },
-      {
-        "url": "https://twitter.com/peakwarmth",
-        "logo": {
-          "type": "txt",
-          "text": "🌞"
-        },
-        "name": "Peak Warmth",
-        "info": "the best time to go outside"
       }
     ]
   },
-  {
-    "title": "support",
-    "projects": [
-      {
-        "url": "tip/",
-        "logo": {
-          "type": "txt",
-          "text": "💵"
-        },
-        "name": "Contribute",
-        "info": "your tips keep these projects going"
-      }
-    ]
-  },
+ 
   {
     "title": "projects on hiatus",
     "projects": [
+      {
+      "url": "/screensaver/presidential_hopefuls/",
+      "logo": {
+        "type": "img",
+        "img-url": "screensaver/presidential_hopefuls/assets/logo.png"
+      },
+      "name": "Presidential Hopefuls",
+      "info": "a screensaver"
+    },
       {
         "url": "webring/",
         "logo": {
@@ -92,24 +70,6 @@
         },
         "name": "Kind of Awesome webring",
         "info": "bringing blogs and websites together"
-      },
-      {
-        "url": "https://apps.apple.com/us/app/chromatic-pocket-stylist/id645307922?ls=1",
-        "logo": {
-          "type": "img",
-          "img-url": "assets/chromatic-logo.png"
-        },
-        "name": "Chromatic Pocket Stylist",
-        "info": "search Etsy for colors in your home"
-      },
-      {
-        "url": "calendar/",
-        "logo": {
-          "type": "txt",
-          "text": "📅"
-        },
-        "name": "2020 Democratic party calendar",
-        "info": "a subscribable calendar for primaries, caucuses, &amp; debates"
       }
     ]
   }

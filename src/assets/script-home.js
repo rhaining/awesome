@@ -57,13 +57,15 @@ function populateProjects(data) {
 
       }
       var html = `
-          <span class="project-section">
-            <div class="${logo_class}">${logo_html}</div>
-            <div class="project-text">
-              <a href="${project['url']}">${project['name']}</a>
+          <div class="project-section">
+            <div class="${logo_class}"> <a href="${project['url']}">${logo_html}</a></div>
+            <div>
+              <div class="project-text">
+                <a href="${project['url']}">${project['name']}</a>
+              </div>
+              <div class="project-info">${project['info']}</div>
             </div>
-            <div class="project-info">${project['info']}</div>
-          </span>
+          </div>
       `
       buffer += html
     }
