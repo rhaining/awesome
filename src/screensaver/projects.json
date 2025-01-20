@@ -3,6 +3,15 @@
     "title": "screensavers",
     "projects": [
       {
+        "url": "/screensaver/skyspace/",
+        "logo": {
+          "type": "img",
+          "img-url": "/screensaver/skyspace/assets/logo.png"
+        },
+        "name": "SkySpaceSaver",
+        "info": "a screensaver"
+      },
+      {
         "url": "/screensaver/colors/",
         "logo": {
           "type": "img",
@@ -37,20 +46,6 @@
         },
         "name": "Presidential Hopefuls",
         "info": "a screensaver"
-      }
-    ]
-  },
-  {
-    "title": "support",
-    "projects": [
-      {
-        "url": "/tip/",
-        "logo": {
-          "type": "txt",
-          "text": "💵"
-        },
-        "name": "Contribute",
-        "info": "your tips keep these projects going"
       }
     ]
   }
