@@ -40,7 +40,7 @@ li {
 }
 .project-section .img-logo, .project-section .html-logo, .project-section .text-logo {
   float: left;
-  padding-right: 8pt;
+  padding-right: 12pt;
 }
 #promo {
   font-size: 0.6em;
